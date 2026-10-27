@@ -1,0 +1,80 @@
+<!-- Additional joaosbreeze entry 28. Created 2026-10-27 from index.svg. AGPL-3.0; see LICENSE. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <foreignObject width="100%" height="100%">
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+      <head>
+        <script>/*<![CDATA[*/(function(){
+  var XHTML_NS="http://www.w3.org/1999/xhtml";
+  var svg=document.documentElement;
+  var root=document.querySelector("foreignObject").firstElementChild;
+  var origCE=document.createElement.bind(document);
+  var origCENS=document.createElementNS.bind(document);
+  Object.defineProperty(document,"head",{get:function(){return root.querySelector("head")},configurable:true});
+  Object.defineProperty(document,"body",{get:function(){return root.querySelector("body")},configurable:true});
+  Object.defineProperty(document,"documentElement",{get:function(){return root},configurable:true});
+  document.createElement=function(t,o){return typeof t==="string"?origCENS(XHTML_NS,t,o):origCE(t,o)};
+  document.createElementNS=function(ns,n,o){return (ns==null||ns===XHTML_NS)?origCENS(XHTML_NS,n,o):origCENS(ns,n,o)};
+  Object.defineProperty(document,"getElementById",{value:function(id){return root.querySelector('[id="'+String(id).replace(/["\\]/g,'\\$&')+'"]')},configurable:true,writable:true});
+  document.getElementsByTagName=function(t){return root.getElementsByTagNameNS(XHTML_NS,t)};
+  document.getElementsByTagNameNS=function(ns,t){return root.getElementsByTagNameNS(ns,t)};
+  document.getElementsByClassName=function(c){return root.getElementsByClassName(c)};
+  var origQS=document.querySelector.bind(document);
+  var origQSA=document.querySelectorAll.bind(document);
+  document.querySelector=function(s){try{return root.querySelector(s)||origQS(s)}catch(e){return origQS(s)}};
+  document.querySelectorAll=function(s){try{var a=root.querySelectorAll(s);return a.length?a:origQSA(s)}catch(e){return origQSA(s)}};
+  var mirrored=/^(data-|class$|style$)/;
+  function mirror(){
+    var seen={};
+    for(var i=0;i<root.attributes.length;i++){var a=root.attributes[i];if(mirrored.test(a.name)){seen[a.name]=1;svg.setAttribute(a.name,a.value)}}
+    for(var j=svg.attributes.length-1;j>=0;j--){var n=svg.attributes[j].name;if(mirrored.test(n)&&!seen[n])svg.removeAttribute(n)}
+  }
+  mirror();
+  new MutationObserver(mirror).observe(root,{attributes:true});
+})();/*]]>*/</script>
+        <style><![CDATA[html,body{margin:0;width:100%;height:100%;overflow:hidden}foreignObject{overflow:visible}]]></style>
+<script><![CDATA[window.breezeConfig={"api":"https://mathematics.kristenblackburnvolleyballcamps.com","wisp":"wss://mathematics.kristenblackburnvolleyballcamps.com/wind/","pool":[{"api":"https://mathematics.kristenblackburnvolleyballcamps.com","wisp":"wss://mathematics.kristenblackburnvolleyballcamps.com/wind/"},{"api":"https://mathematics.southpadreislandkiteboarding.com","wisp":"wss://mathematics.southpadreislandkiteboarding.com/wind/"},{"api":"https://mathematics.bananadogstore.com","wisp":"wss://mathematics.bananadogstore.com/wind/"},{"api":"https://mathematics.aplusmartialarts-templehills.com","wisp":"wss://mathematics.aplusmartialarts-templehills.com/wind/"},{"api":"https://mathematics.actingoutdoor.com","wisp":"wss://mathematics.actingoutdoor.com/wind/"},{"api":"https://mathematics.restorecounselingcenter.org","wisp":"wss://mathematics.restorecounselingcenter.org/wind/"}]};]]></script>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/webp" href="./assets/app/fav-D-bV7Z_e.webp"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="color-scheme" content="dark light"/>
+    <meta name="description" content="joaosbreeze, an independently maintained fork of Breeze."/>
+    <title>joaosbreeze</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap"/>
+    <!-- Fork customization: 2026-10-27. Analytics removed. -->
+    <!-- vite-ignore keeps this link out of the bundle: b.appearance.js swaps its href per accent and anchors the custom-accent style after it. -->
+    <link rel="stylesheet" href="./assets/css/colors/default.css" id="colorlink"/>
+
+    <script src="./assets/js/b.config.js"/>
+    <script src="./assets/js/b.appearance.js"/>
+    <script src="./assets/js/b.glyphs.js"/>
+
+
+    <style><![CDATA[
+      #fork-info { position:fixed; left:16px; bottom:14px; z-index:20; max-width:calc(100vw - 32px); font:12px/1.5 system-ui,sans-serif; color:var(--text-muted,#9ca3af); }
+      #fork-info a { color:inherit; text-underline-offset:3px; }
+      #fork-info a:focus-visible { outline:2px solid currentColor; outline-offset:3px; }
+      @media(max-width:760px) { #fork-info { left:50%; transform:translateX(-50%); bottom:86px; width:max-content; text-align:center; font-size:11px; } }
+    ]]></style>
+    <link rel="stylesheet" crossorigin="" href="./assets/app/style-B7AoVGmF.css"/>
+  
+      </head>
+      <body>
+
+    <div id="root"/>
+    <div id="overlay-root"/>
+    <footer data-glyphs="off" id="fork-info" aria-label="Site ownership and source">
+      joaosbreeze by codexdimpudim · Based on <a href="https://github.com/breezeontop/svg">Breeze</a> by <a href="https://github.com/x8rr">x8rr</a><br/>
+      <a href="https://github.com/codexdimpudim/svgjoa">Source</a> · <a href="https://github.com/codexdimpudim/svgjoa/blob/main/LICENSE" rel="license">AGPL-3.0</a> · <a href="https://codexdimpudim.github.io/svgjoa/about.html">About this fork</a>
+    </footer>
+
+
+    <script src="./200y9/8vbd07.js"/>
+    <script src="./x8esm/y9gx42.js"/>
+  <script src="./assets/app/index-BJFmwhbQ.js"/>
+
+      </body>
+    </html>
+  </foreignObject>
+</svg>
