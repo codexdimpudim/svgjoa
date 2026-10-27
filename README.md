@@ -33,6 +33,8 @@ The repository is licensed under [GNU AGPL-3.0](LICENSE). This fork retains that
 
 GitHub Pages serves static files. It cannot host the API or Wisp/WebSocket backend. The inherited `window.breezeConfig` pool in both entry points still points to upstream-operated external API/Wisp servers. Proxy browsing, movies/TV and manga depend on these services, their availability, CORS policies and content providers. Games load content from outside this repository. This fork does not operate or guarantee those services.
 
+**Live verification on 2026-10-27:** GitHub Pages deployed successfully. HTML/SVG entry points, app assets, About, game catalog/filtering and a proxied 2048 game loaded. A generic proxy destination also loaded in the local preview. The movie and manga catalogs failed on the live site. All six inherited API servers returned JSON in direct checks with the Pages Origin header, but omitted `Access-Control-Allow-Origin`. These browser features need a backend configured to allow this origin (or a user-controlled same-origin gateway); Pages cannot host that backend. No backend account or paid service was created.
+
 The inherited analytics, error reporting and click ads are disabled in the active app. Other external requests (fonts, thumbnails, game/media content and API/proxy requests) remain part of the original functionality. See [About](about.html) for the visitor-facing explanation.
 
 The owner selected the name `joaosbreeze` and requested the existing design be retained. The repository and URL remain `svgjoa`. No custom domain or paid hosting is configured. The upstream `robots.txt` still asks search engines not to index the site.
