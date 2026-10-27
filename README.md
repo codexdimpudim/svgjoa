@@ -1,4 +1,4 @@
-# svgjoa
+# joaosbreeze
 
 An independently maintained fork of [breezeontop/svg](https://github.com/breezeontop/svg), operated by [codexdimpudim](https://github.com/codexdimpudim). The original Breeze app credits [x8rr](https://github.com/x8rr) and its other contributors/dependencies in Settings.
 
@@ -14,7 +14,7 @@ To preview at the same subpath, serve the parent folder with `python3 -m http.se
 
 ## Changes dated 2026-10-27
 
-- Provisional title and home heading: `svgjoa`. Existing layout, colors, settings keys and original credits retained.
+- Owner-selected title and home heading: `joaosbreeze`. Existing layout, colors, settings keys and original credits retained.
 - Removed Google Analytics and the remote error-monitor script from both entry points.
 - Disabled the inherited click-triggered ad handler in `assets/app/index-BJFmwhbQ.js` and removed its ad destination.
 - Removed the unrelated classroom loading screen. Disabled text substitution by default so labels retain ordinary readable characters; the original optional setting remains available.
@@ -35,4 +35,4 @@ GitHub Pages serves static files. It cannot host the API or Wisp/WebSocket backe
 
 The inherited analytics, error reporting and click ads are disabled in the active app. Other external requests (fonts, thumbnails, game/media content and API/proxy requests) remain part of the original functionality. See [About](about.html) for the visitor-facing explanation.
 
-Branding is provisional pending the owner's preferred site name and design. No custom domain or paid hosting is configured. The upstream `robots.txt` still asks search engines not to index the site.
+The owner selected the name `joaosbreeze` and requested the existing design be retained. The repository and URL remain `svgjoa`. No custom domain or paid hosting is configured. The upstream `robots.txt` still asks search engines not to index the site.
