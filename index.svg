@@ -65,7 +65,7 @@
     <div id="overlay-root"/>
     <footer data-glyphs="off" id="fork-info" aria-label="Site ownership and source">
       joaosbreeze by codexdimpudim · Based on <a href="https://github.com/breezeontop/svg">Breeze</a> by <a href="https://github.com/x8rr">x8rr</a><br/>
-      <a href="https://github.com/codexdimpudim/svgjoa">Source</a> · <a href="./LICENSE" rel="license">AGPL-3.0</a> · <a href="./about.html">About this fork</a>
+      <a href="https://github.com/codexdimpudim/svgjoa">Source</a> · <a href="https://github.com/codexdimpudim/svgjoa/blob/main/LICENSE" rel="license">AGPL-3.0</a> · <a href="https://codexdimpudim.github.io/svgjoa/about.html">About this fork</a>
     </footer>
 
 
