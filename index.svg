@@ -36,8 +36,8 @@
     <link rel="icon" type="image/webp" href="./assets/app/fav-D-bV7Z_e.webp"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="color-scheme" content="dark light"/>
-    <meta name="description" content="svgjoa, an independently maintained fork of Breeze."/>
-    <title>svgjoa</title>
+    <meta name="description" content="joaosbreeze, an independently maintained fork of Breeze."/>
+    <title>joaosbreeze</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap"/>
@@ -64,7 +64,7 @@
     <div id="root"/>
     <div id="overlay-root"/>
     <footer data-glyphs="off" id="fork-info" aria-label="Site ownership and source">
-      svgjoa by codexdimpudim · Based on <a href="https://github.com/breezeontop/svg">Breeze</a> by <a href="https://github.com/x8rr">x8rr</a><br/>
+      joaosbreeze by codexdimpudim · Based on <a href="https://github.com/breezeontop/svg">Breeze</a> by <a href="https://github.com/x8rr">x8rr</a><br/>
       <a href="https://github.com/codexdimpudim/svgjoa">Source</a> · <a href="./LICENSE" rel="license">AGPL-3.0</a> · <a href="./about.html">About this fork</a>
     </footer>
 
