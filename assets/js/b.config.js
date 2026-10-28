@@ -16,10 +16,11 @@ function setMotion(){cancelAnimationFrame(ramp);ramp=0;lastFrame=0;if(spin){spin
 propeller.addEventListener('pointerenter',()=>{hovering=true;updateSpin()});propeller.addEventListener('pointerleave',()=>{hovering=false;updateSpin()});propeller.addEventListener('focus',()=>{focused=true;updateSpin()});propeller.addEventListener('blur',()=>{focused=false;updateSpin()});propeller.addEventListener('click',()=>{tapped=true;clearTimeout(tapTimer);updateSpin();tapTimer=setTimeout(()=>{tapped=false;updateSpin()},1500)});motion.addEventListener('change',setMotion);setMotion();
 }
 function brand(){
+ if(/joaosbreeze|svgjoa/i.test(document.title))document.title=document.title.replace(/joaosbreeze|svgjoa/ig,'cirrus');
  const title=document.querySelector('title');if(title&&/joaosbreeze|svgjoa/i.test(title.textContent))title.textContent=title.textContent.replace(/joaosbreeze|svgjoa/ig,'cirrus');
  const meta=document.querySelector('meta[name="description"]');if(meta&&/joaosbreeze/i.test(meta.content))meta.content='Cirrus, an independently maintained fork of Breeze.';
  const footer=document.getElementById('fork-info');if(footer){for(const node of Array.from(footer.childNodes)){if(node.nodeType===3&&/joaosbreeze/i.test(node.nodeValue))node.nodeValue=node.nodeValue.replace(/joaosbreeze by codexdimpudim/ig,'cirrus').replace(/joaosbreeze/ig,'cirrus')}}
  const heading=document.querySelector('.home-title');if(heading&&!heading.querySelector('.cirrus-propeller')){heading.textContent='cirrus';const holder=document.createElement('div');holder.innerHTML=markup;const button=holder.firstElementChild;button.className='cirrus-propeller';button.removeAttribute('id');heading.insertBefore(button,heading.firstChild);initMotion(button)}
 }
-let queued=false;new MutationObserver(()=>{if(!queued){queued=true;queueMicrotask(()=>{queued=false;brand()})}}).observe(document.documentElement,{subtree:true,childList:true,characterData:true});brand();
+let queued=false;new MutationObserver(()=>{if(!queued){queued=true;queueMicrotask(()=>{queued=false;brand()})}}).observe(document,{subtree:true,childList:true,characterData:true});brand();
 })();
